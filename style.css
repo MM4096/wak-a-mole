@@ -1,0 +1,21 @@
+﻿#startScreen {
+    text-align: center;
+}
+#gameScreen div {
+    width: 14.5vw;
+    margin: 0.67%;
+    height: 19.15vh;
+    background-color: brown;
+    display: inline-block;
+}
+.active {
+    background-color: green !important;
+}
+
+#scoreBar {
+    margin: 0px !important;
+    padding: 0px;
+    width: 100% !important;
+    height: 20px !important;
+    background-color: white !important;
+}

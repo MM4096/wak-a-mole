@@ -3,9 +3,49 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Wak a mole</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <div id="startScreen">
+        <h3>Wak a mole</h3>
+        <p>Time: 60 sec<br />Hit as many moles as possible</p>
+        <button onclick="start()">Start</button>
+    </div>
+    <div id="gameScreen" hidden>
+        <div id="scoreBar">
+            <p id="score">Score: 0</p>
+        </div>
+        <div id="1" onclick="clicked(1)"></div>
+        <div id="2" onclick="clicked(2)"></div>
+        <div id="3" onclick="clicked(3)"></div>
+        <div id="4" onclick="clicked(4)"></div>
+        <div id="5" onclick="clicked(5)"></div>
+        <div id="6" onclick="clicked(6)"></div>
+        <div id="7" onclick="clicked(7)"></div>
+        <div id="8" onclick="clicked(8)"></div>
+        <div id="9" onclick="clicked(9)"></div>
+        <div id="10" onclick="clicked(10)"></div>
+        <div id="11" onclick="clicked(11)"></div>
+        <div id="12" onclick="clicked(12)"></div>
+        <div id="13" onclick="clicked(13)"></div>
+        <div id="14" onclick="clicked(14)"></div>
+        <div id="15" onclick="clicked(15)"></div>
+        <div id="16" onclick="clicked(16)"></div>
+        <div id="17" onclick="clicked(17)"></div>
+        <div id="18" onclick="clicked(18)"></div>
+        <div id="19" onclick="clicked(19)"></div>
+        <div id="20" onclick="clicked(20)"></div>
+        <div id="21" onclick="clicked(21)"></div>
+        <div id="22" onclick="clicked(22)"></div>
+        <div id="23" onclick="clicked(23)"></div>
+        <div id="24" onclick="clicked(24)"></div>
+    </div>
+    <div id="finish">
 
+    </div>
 </body>
 </html>
